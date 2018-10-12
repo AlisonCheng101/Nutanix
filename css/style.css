@@ -27,7 +27,7 @@ body {
 }
 
 header {
-  background-color: #FFFFFF;
+  background-color: #22272E;
   height: 60px;
   width: 100%;
   box-sizing: border-box;
@@ -69,7 +69,7 @@ header .dropdown {
 h1 {
   font-family:NutanixSoft-Medium;
   font-size:14px;
-  color:#22272e;
+  color:#fff;
     left: 250px; 
     height: 10px;
     font-weight: 400;
@@ -109,8 +109,8 @@ h1 {
 
 .status .icon .ico_num {
   font-family:NutanixSoft-Semibold;
-  padding: 3px 8px;
-  font-size: 11px;
+  padding: 3px 7px;
+  font-size: 12px;
   line-height: 14px;
   height: 14px;
   display: inline-block;
@@ -444,7 +444,7 @@ h5{
   width: 17px;
   line-height: 17px;
   padding: 0px;
-  background-color: #F2F4F6;
+  background-color: #37414B;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -453,7 +453,7 @@ h5{
 }
 
 .dropbtn:hover {
-    background-color: #D5DAE0;
+    opacity: 0.8;
     outline: 0;
   border: none;
   -moz-outline-style: none;
@@ -465,17 +465,10 @@ h5{
   -moz-outline-style: none;
 }
 
-/*
-.dropbtn:focus {
-    background-color: #D5DAE0;
-    outline: 0;
-  border: none;
-  -moz-outline-style: none;
-   transform: rotate(180deg); 
-}*/
+
 
 .dropbtn.focus {
-      background-color: #D5DAE0;
+      opacity: 0.8;
     outline: 0;
   border: none;
   -moz-outline-style: none;
@@ -492,7 +485,7 @@ h5{
     position:  absolute;
     left:-250px;
     top:38px;
-    background-color: #FFFFFF;
+    background-color: #22272E;
     height:210px;
     min-width: 420px;
     overflow: auto;
@@ -525,7 +518,7 @@ div.items {
     font-weight: 400
 }
 div.items:hover{
-  color:#22272E;
+  color:#fff;
    opacity: 0.8;
 }
 
